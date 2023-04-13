@@ -10,6 +10,7 @@ import jdbc_prepaid_statement_game.dto.GameDto;
 
 public class GameDao
 {
+
 	Connection connection=GameConnection.gameConnection();
 	public void insertGame(GameDto game)
 	{
